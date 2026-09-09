@@ -1,0 +1,17 @@
+# Maven
+target/
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Java
+*.class
+*.jar
+*.log
+
+# Configurações com senhas
+.env
+application.properties.local
