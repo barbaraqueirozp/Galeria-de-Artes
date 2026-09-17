@@ -18,15 +18,18 @@
          <children>
             <AnchorPane prefHeight="111.0" prefWidth="306.0">
                <children>
-                  <Label prefHeight="20.0" prefWidth="138.0" text="GaleriaOnline">
+                  <Label prefHeight="39.0" prefWidth="194.0" text="GaleriaOnline">
                      <font>
-                        <Font name="DM Serif Display Regular" size="20.0" />
+                        <Font name="DM Serif Display Regular" size="28.0" />
                      </font>
                   </Label>
                   <Label text="Explorando artistas perto de você" textFill="#686060" translateY="25.0">
                      <font>
                         <Font name="InaiMathi" size="13.0" />
                      </font>
+                     <padding>
+                        <Insets top="4.0" />
+                     </padding>
                   </Label>
                   <Button layoutX="252.0" layoutY="10.0" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 100; -fx-border-radius: 100;" translateY="-5.0">
                      <graphic>
@@ -63,7 +66,7 @@
             </AnchorPane>
             <HBox prefWidth="306.0" spacing="15.0">
                <VBox.margin>
-                  <Insets bottom="15.0" />
+                  <Insets top="5.0" />
                </VBox.margin>
                <children>
                   <Button mnemonicParsing="false" prefHeight="20.0" prefWidth="54.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-background-color: FFFCF7; -fx-border-color: DDD5CB;" text="Todos" textFill="#686060">
@@ -100,18 +103,18 @@
          <children>
             <HBox prefHeight="40.0" prefWidth="306.0">
                <children>
-                  <Label prefHeight="19.0" prefWidth="120.0" text="Artistas por perto">
+                  <Label prefHeight="31.0" prefWidth="232.0" text="Artistas por perto">
                      <font>
-                        <Font name="DM Serif Display Regular" size="13.0" />
+                        <Font name="DM Serif Display Regular" size="22.0" />
                      </font>
                      <HBox.margin>
-                        <Insets top="6.0" />
+                        <Insets />
                      </HBox.margin>
                   </Label>
-                  <Region prefHeight="95.0" prefWidth="112.0" HBox.hgrow="ALWAYS" />
+                  <Region prefHeight="37.0" prefWidth="8.0" HBox.hgrow="ALWAYS" />
                   <Button alignment="CENTER" contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="32.0" prefWidth="99.0" style="-fx-background-color: F5F1EA;" text="Ver todos" textFill="#b50000">
                      <font>
-                        <Font name="DM Serif Display Regular" size="13.0" />
+                        <Font name="InaiMathi" size="13.0" />
                      </font>
                   </Button>
                </children>
