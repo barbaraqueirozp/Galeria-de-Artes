@@ -42,7 +42,7 @@
                                  <graphic>
                                     <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
-                                          <Image url="@../../../../../Downloads/toppng.com-chat-bubble-png-2000x1507.png" />
+                                          <Image url="@../assets/toppng.com-chat-bubble-png-2000x1507.png" />
                                        </image>
                                     </ImageView>
                                  </graphic>
@@ -182,7 +182,7 @@
                <children>
                   <ImageView fitHeight="24.0" fitWidth="26.0" pickOnBounds="true">
                      <image>
-                        <Image url="@../../../../../Downloads/image-from-rawpixel-id-6012959-png.png" />
+                        <Image url="@../assets/image-from-rawpixel-id-6012959-png.png" />
                      </image>
                   </ImageView>
                </children>
@@ -191,7 +191,7 @@
                <children>
                   <ImageView fitHeight="24.0" fitWidth="26.0" pickOnBounds="true">
                      <image>
-                        <Image url="@../../../../../Downloads/image-from-rawpixel-id-24229018-png.png" />
+                        <Image url="@../assets/image-from-rawpixel-id-24229018-png.png" />
                      </image>
                   </ImageView>
                </children>
@@ -200,7 +200,7 @@
                <children>
                   <ImageView fitHeight="24.0" fitWidth="26.0" pickOnBounds="true">
                      <image>
-                        <Image url="@../../../../../Downloads/camera.png" />
+                        <Image url="@../assets/camera.png" />
                      </image>
                   </ImageView>
                </children>
@@ -209,7 +209,7 @@
                <children>
                   <ImageView fitHeight="24.0" fitWidth="26.0" pickOnBounds="true">
                      <image>
-                        <Image url="@../../../../../Downloads/toppng.com-chat-bubble-png-2000x1507.png" />
+                        <Image url="@../assets/toppng.com-chat-bubble-png-2000x1507.png" />
                      </image>
                   </ImageView>
                </children>
@@ -218,7 +218,7 @@
                <children>
                   <ImageView fitHeight="24.0" fitWidth="26.0" pickOnBounds="true">
                      <image>
-                        <Image url="@../../../../../Downloads/perfil.png" />
+                        <Image url="@../assets/perfil.png" />
                      </image>
                   </ImageView>
                </children>
