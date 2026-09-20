@@ -10,10 +10,10 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
-
 
 <BorderPane prefHeight="646.0" prefWidth="348.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
    <center>
@@ -25,28 +25,6 @@
                      <children>
                         <AnchorPane prefHeight="111.0" prefWidth="306.0">
                            <children>
-                              <Label prefHeight="39.0" prefWidth="194.0" text="GaleriaOnline">
-                                 <font>
-                                    <Font name="DM Serif Display Regular" size="28.0" />
-                                 </font>
-                              </Label>
-                              <Label text="Explorando artistas perto de você" textFill="#686060" translateY="25.0">
-                                 <font>
-                                    <Font name="InaiMathi" size="13.0" />
-                                 </font>
-                                 <padding>
-                                    <Insets top="4.0" />
-                                 </padding>
-                              </Label>
-                              <Button layoutX="252.0" layoutY="10.0" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 100; -fx-border-radius: 100;" translateY="-5.0">
-                                 <graphic>
-                                    <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
-                                       <image>
-                                          <Image url="@../assets/toppng.com-chat-bubble-png-2000x1507.png" />
-                                       </image>
-                                    </ImageView>
-                                 </graphic>
-                              </Button>
                               <AnchorPane layoutY="57.0" prefHeight="35.0" prefWidth="306.0" style="-fx-background-color: F5F1EA; -fx-border-radius: 10; -fx-background-radius: 10;">
                                  <children>
                                     <ImageView fitHeight="24.0" fitWidth="26.0" layoutX="9.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
@@ -66,6 +44,28 @@
                                     </ImageView>
                                  </children>
                               </AnchorPane>
+                              <HBox prefHeight="38.0" prefWidth="304.0">
+                                 <children>
+                                    <ImageView fitHeight="31.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../../../Downloads/Untitled%20design.png" />
+                                       </image>
+                                       <HBox.margin>
+                                          <Insets right="2.0" top="4.0" />
+                                       </HBox.margin>
+                                    </ImageView>
+                                    <Label prefHeight="39.0" prefWidth="194.0" text="GaleriaOnline">
+                                       <font>
+                                          <Font name="Microsoft Himalaya" size="34.0" />
+                                       </font>
+                                    </Label>
+                                    <StackPane fx:id="btnPerfil" prefHeight="40.0" prefWidth="64.0">
+                                       <children>
+                                          <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" />
+                                       </children>
+                                    </StackPane>
+                                 </children>
+                              </HBox>
                            </children>
                            <VBox.margin>
                               <Insets bottom="10.0" />
