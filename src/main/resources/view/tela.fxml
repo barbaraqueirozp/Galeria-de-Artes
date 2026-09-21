@@ -9,167 +9,134 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.Region?>
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<BorderPane prefHeight="646.0" prefWidth="348.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane prefHeight="868.0" prefWidth="348.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
    <center>
-      <ScrollPane prefWidth="348.0">
+      <ScrollPane prefHeight="641.0" prefWidth="348.0">
          <content>
-            <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="635.0" prefWidth="346.0" style="-fx-background-color: FFFCF7;">
+            <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="810.0" prefWidth="346.0" style="-fx-background-color: FFFCF7;">
                <children>
-                  <VBox prefHeight="141.0" prefWidth="306.0" style="-fx-background-color: FFFCF7;">
+                  <VBox prefHeight="226.0" prefWidth="346.0" spacing="10.0" style="-fx-background-color: FFFCF7;">
                      <children>
-                        <AnchorPane prefHeight="111.0" prefWidth="306.0">
+                        <HBox prefHeight="63.0" prefWidth="333.0" style="-fx-background-color: FBF9F5;">
                            <children>
-                              <AnchorPane layoutY="57.0" prefHeight="35.0" prefWidth="306.0" style="-fx-background-color: F5F1EA; -fx-border-radius: 10; -fx-background-radius: 10;">
-                                 <children>
-                                    <ImageView fitHeight="24.0" fitWidth="26.0" layoutX="9.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
-                                       <image>
-                                          <Image url="@../../../../../Downloads/—Pngtree—magnifying%20glass%20icon_5656240.png" />
-                                       </image>
-                                    </ImageView>
-                                    <Text fill="#686060" layoutX="41.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buscar artistas, obras ou estilos" translateY="-2.0">
-                                       <font>
-                                          <Font name="InaiMathi" size="12.0" />
-                                       </font>
-                                    </Text>
-                                    <ImageView fitHeight="23.0" fitWidth="21.0" layoutX="272.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" translateY="1.0">
-                                       <image>
-                                          <Image url="@../../../../../Downloads/c71f5bf13188c620b2fa42a94a231b0e.png" />
-                                       </image>
-                                    </ImageView>
-                                 </children>
-                              </AnchorPane>
-                              <HBox prefHeight="38.0" prefWidth="304.0">
-                                 <children>
-                                    <ImageView fitHeight="31.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
-                                       <image>
-                                          <Image url="@../../../../../../Downloads/Untitled%20design.png" />
-                                       </image>
-                                       <HBox.margin>
-                                          <Insets right="2.0" top="4.0" />
-                                       </HBox.margin>
-                                    </ImageView>
-                                    <Label prefHeight="39.0" prefWidth="194.0" text="GaleriaOnline">
-                                       <font>
-                                          <Font name="Microsoft Himalaya" size="34.0" />
-                                       </font>
-                                    </Label>
-                                    <StackPane fx:id="btnPerfil" prefHeight="40.0" prefWidth="64.0">
-                                       <children>
-                                          <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" />
-                                       </children>
-                                    </StackPane>
-                                 </children>
-                              </HBox>
-                           </children>
-                           <VBox.margin>
-                              <Insets bottom="10.0" />
-                           </VBox.margin>
-                        </AnchorPane>
-                        <HBox prefWidth="306.0" spacing="15.0">
-                           <VBox.margin>
-                              <Insets top="5.0" />
-                           </VBox.margin>
-                           <children>
-                              <Button mnemonicParsing="false" prefHeight="20.0" prefWidth="54.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-background-color: FFFCF7; -fx-border-color: DDD5CB;" text="Todos" textFill="#686060">
-                                 <font>
-                                    <Font name="InaiMathi" size="10.0" />
-                                 </font>
-                              </Button>
-                              <Button mnemonicParsing="false" prefHeight="20.0" prefWidth="54.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-background-color: FFFCF7; -fx-border-color: DDD5CB;" text="Quadros" textFill="#686060">
-                                 <font>
-                                    <Font name="InaiMathi" size="10.0" />
-                                 </font>
-                              </Button>
-                              <Button mnemonicParsing="false" prefHeight="24.0" prefWidth="59.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-background-color: FFFCF7; -fx-border-color: DDD5CB;" text="Fotografia" textFill="#686060" wrapText="true">
-                                 <font>
-                                    <Font name="InaiMathi" size="10.0" />
-                                 </font>
-                              </Button>
-                              <Button mnemonicParsing="false" prefHeight="24.0" prefWidth="60.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-background-color: FFFCF7; -fx-border-color: DDD5CB;" text="Esculturas" textFill="#686060" wrapText="true">
-                                 <font>
-                                    <Font name="InaiMathi" size="10.0" />
-                                 </font>
-                              </Button>
-                           </children>
-                        </HBox>
-                     </children>
-                     <VBox.margin>
-                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-                     </VBox.margin>
-                  </VBox>
-                  <VBox maxWidth="1.7976931348623157E308" prefHeight="497.0" prefWidth="346.0" style="-fx-background-color: F5F1EA;">
-                     <padding>
-                        <Insets bottom="20.0" left="20.0" right="20.0" />
-                     </padding>
-                     <children>
-                        <HBox prefHeight="40.0" prefWidth="306.0">
-                           <children>
-                              <Label prefHeight="31.0" prefWidth="232.0" text="Artistas por perto">
-                                 <font>
-                                    <Font name="DM Serif Display Regular" size="22.0" />
-                                 </font>
+                              <ImageView fitHeight="31.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../Downloads/Untitled%20design.png" />
+                                 </image>
                                  <HBox.margin>
-                                    <Insets />
+                                    <Insets right="2.0" top="4.0" />
                                  </HBox.margin>
-                              </Label>
-                              <Region prefHeight="37.0" prefWidth="8.0" HBox.hgrow="ALWAYS" />
-                              <Button alignment="CENTER" contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="32.0" prefWidth="99.0" style="-fx-background-color: F5F1EA;" text="Ver mapa" textFill="#b50000">
+                              </ImageView>
+                              <Label prefHeight="59.0" prefWidth="202.0" text="GaleriaOnline">
                                  <font>
-                                    <Font name="InaiMathi" size="13.0" />
+                                    <Font name="Microsoft Himalaya" size="34.0" />
                                  </font>
-                              </Button>
+                              </Label>
+                              <StackPane fx:id="btnPerfil" prefHeight="16.0" prefWidth="64.0">
+                                 <children>
+                                    <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" />
+                                 </children>
+                              </StackPane>
                            </children>
                            <padding>
-                              <Insets top="5.0" />
+                              <Insets left="12.0" top="12.0" />
                            </padding>
                         </HBox>
-                        <ScrollPane fitToHeight="true" prefHeight="88.0" prefWidth="306.0" vbarPolicy="NEVER">
-                           <content>
-                              <HBox fx:id="hboxPerfis" alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="371.0" spacing="30.0" />
-                           </content>
-                        </ScrollPane>
-                        <VBox prefHeight="200.0" prefWidth="100.0">
+                        <HBox prefHeight="41.0" prefWidth="321.0">
                            <children>
-                              <HBox prefHeight="40.0" prefWidth="306.0">
+                              <VBox prefHeight="41.0" prefWidth="232.0">
                                  <children>
-                                    <Label prefHeight="31.0" prefWidth="232.0" text="Obras em destaque">
+                                    <Label prefHeight="19.0" prefWidth="170.0" text="SALÃO CONTEMPORÂNEO" textFill="#8f4c2a">
                                        <font>
-                                          <Font name="DM Serif Display Regular" size="22.0" />
+                                          <Font name="Nirmala UI Bold" size="13.0" />
                                        </font>
-                                       <HBox.margin>
-                                          <Insets />
-                                       </HBox.margin>
                                     </Label>
-                                    <Region prefHeight="37.0" prefWidth="8.0" HBox.hgrow="ALWAYS" />
-                                    <Button alignment="CENTER" contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="32.0" prefWidth="99.0" style="-fx-background-color: F5F1EA;" text="Ver todas" textFill="#b50000">
+                                    <Label lineSpacing="7.0" prefHeight="22.0" prefWidth="227.0" text="Descubra obras de arte autênticas">
                                        <font>
-                                          <Font name="InaiMathi" size="13.0" />
+                                          <Font name="Palatino Linotype" size="15.0" />
                                        </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <StackPane prefHeight="41.0" prefWidth="76.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: EFEEEA; -fx-background-radius: 40; -fx-border-radius: 40; -fx-cursor: 0;" textFill="#efeeea">
+                                       <graphic>
+                                          <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../assets/notification.png" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
                                     </Button>
                                  </children>
-                                 <VBox.margin>
-                                    <Insets top="20.0" />
-                                 </VBox.margin>
-                              </HBox>
-                              <ScrollPane fitToHeight="true" pannable="true" prefHeight="390.0" prefWidth="200.0" vbarPolicy="NEVER">
-                                 <content>
-                                    <HBox fx:id="hboxObras" alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
-                                       <padding>
-                                          <Insets top="10.0" />
-                                       </padding>
-                                    </HBox>
-                                 </content>
-                              </ScrollPane>
+                              </StackPane>
                            </children>
-                        </VBox>
+                           <VBox.margin>
+                              <Insets left="20.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" maxWidth="-Infinity" minWidth="150.0" onMouseClicked="#abrirFiltroLocalizacao" prefHeight="32.0" prefWidth="150.0" spacing="10.0" style="-fx-background-color: F5F1EA; -fx-background-radius: 10; -fx-border-radius: 10; -fx-cursor: hand; -fx-padding: 6px 10px;" styleClass="filtro-localizacao">
+                           <children>
+                              <Label prefHeight="30.0" prefWidth="20.0">
+                                 <graphic>
+                                    <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../assets/image-from-rawpixel-id-24229018-png.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Label>
+                              <Label fx:id="lblFiltroLocalizacao" styleClass="texto-localizacao" text="Label">
+                                 <font>
+                                    <Font name="Palatino Linotype" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label text="▾" />
+                           </children>
+                           <padding>
+                              <Insets bottom="6.0" left="15.0" right="10.0" top="6.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets left="20.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <AnchorPane prefHeight="34.0" prefWidth="346.0" style="-fx-background-color: F5F1EA; -fx-border-radius: 10; -fx-background-radius: 10;">
+                           <children>
+                              <ImageView fitHeight="24.0" fitWidth="26.0" layoutX="14.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+                                 <image>
+                                    <Image url="@../assets/—Pngtree—magnifying%20glass%20icon_5656240.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#686060" layoutX="40.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buscar artistas, obras ou estilos" textAlignment="CENTER" translateY="-2.0">
+                                 <font>
+                                    <Font name="Palatino Linotype" size="13.0" />
+                                 </font>
+                              </Text>
+                              <ImageView fitHeight="23.0" fitWidth="21.0" layoutX="254.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" translateY="1.0">
+                                 <image>
+                                    <Image url="@../assets/c71f5bf13188c620b2fa42a94a231b0e.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <VBox.margin>
+                              <Insets left="20.0" right="30.0" top="6.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets right="6.0" />
+                           </padding>
+                        </AnchorPane>
                      </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
                   </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" />
                </children>
             </VBox>
          </content>
