@@ -9,16 +9,17 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<BorderPane prefHeight="868.0" prefWidth="348.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane prefHeight="1049.0" prefWidth="348.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
    <center>
       <ScrollPane prefHeight="641.0" prefWidth="348.0">
          <content>
-            <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="810.0" prefWidth="346.0" style="-fx-background-color: FFFCF7;">
+            <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="987.0" prefWidth="346.0" style="-fx-background-color: FFFCF7;">
                <children>
                   <VBox prefHeight="226.0" prefWidth="346.0" spacing="10.0" style="-fx-background-color: FFFCF7;">
                      <children>
@@ -26,7 +27,7 @@
                            <children>
                               <ImageView fitHeight="31.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../../../../../../Downloads/Untitled%20design.png" />
+                                    <Image url="@../assets/Untitled%20design.png" />
                                  </image>
                                  <HBox.margin>
                                     <Insets right="2.0" top="4.0" />
@@ -53,7 +54,7 @@
                                  <children>
                                     <Label prefHeight="19.0" prefWidth="170.0" text="SALÃO CONTEMPORÂNEO" textFill="#8f4c2a">
                                        <font>
-                                          <Font name="Nirmala UI Bold" size="13.0" />
+                                          <Font name="Nirmala UI" size="13.0" />
                                        </font>
                                     </Label>
                                     <Label lineSpacing="7.0" prefHeight="22.0" prefWidth="227.0" text="Descubra obras de arte autênticas">
@@ -136,7 +137,122 @@
                         <Insets />
                      </VBox.margin>
                   </VBox>
-                  <VBox prefHeight="200.0" prefWidth="100.0" />
+                  <HBox alignment="CENTER_LEFT" prefHeight="33.0" prefWidth="346.0" spacing="15.0">
+                     <children>
+                        <Label text="Pesquisar Categorias">
+                           <font>
+                              <Font name="Palatino Linotype" size="18.0" />
+                           </font></Label>
+                        <Region maxWidth="1.7976931348623157E308" minWidth="0.0" prefWidth="0.0" HBox.hgrow="ALWAYS" />
+                        <Button alignment="CENTER_RIGHT" focusTraversable="false" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: transparent;" text="Ver todas" textFill="#8f4c2a" />
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="20.0" right="30.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="47.0" prefWidth="346.0" spacing="15.0">
+                     <children>
+                        <Button graphicTextGap="10.0" mnemonicParsing="false" style="-fx-background-color: F5F3EF; -fx-text-fill: black; -fx-background-radius: 40; -fx-padding: 4 15 4 15;" text="Pinturas">
+                           <graphic>
+                              <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../Downloads/pngwing.com.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <font>
+                              <Font name="Apple Symbols" size="20.0" />
+                           </font>
+                        </Button>
+                        <Button graphicTextGap="10.0" mnemonicParsing="false" prefWidth="135.0" style="-fx-background-color: F5F3EF; -fx-text-fill: black; -fx-background-radius: 40; -fx-padding: 6 15 6 15;" text="Esculturas">
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../Downloads/3d-cube.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <font>
+                              <Font name="Apple Symbols" size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <padding>
+                        <Insets left="20.0" right="20.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="BOTTOM_LEFT" maxWidth="1.7976931348623157E308" prefHeight="44.0" prefWidth="346.0" spacing="12.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="23.0" prefWidth="188.0" text="Destaques da Semana">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Region maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="28.0" prefWidth="35.0" HBox.hgrow="ALWAYS" />
+                        <Button alignment="CENTER" focusTraversable="false" mnemonicParsing="false" prefHeight="28.0" prefWidth="74.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" text="Explorar" textFill="#8f4c2a" />
+                     </children>
+                     <padding>
+                        <Insets left="12.0" right="30.0" />
+                     </padding>
+                  </HBox>
+                  <Label alignment="BOTTOM_LEFT" prefHeight="38.0" prefWidth="237.0" text="Seleção curatorial de peças premiadas e ateliês de renome" wrapText="true">
+                     <VBox.margin>
+                        <Insets left="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ScrollPane fitToHeight="true" pannable="true" prefHeight="200.0" prefWidth="200.0" vbarPolicy="NEVER">
+                     <content>
+                        <HBox fx:id="boxObrasDestaque" alignment="CENTER_LEFT" prefHeight="197.0" prefWidth="343.0" spacing="20.0" />
+                     </content>
+                  </ScrollPane>
+                  <HBox alignment="BOTTOM_LEFT" prefHeight="55.0" prefWidth="346.0">
+                     <children>
+                        <Label text="Artistas no seu Radar">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Region maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="57.0" prefWidth="86.0" HBox.hgrow="ALWAYS" />
+                        <Button mnemonicParsing="false" style="-fx-background-color: TRANSPARENT; -fx-border-color: TRANSPARENT;" text="Mapa" textFill="#8f4c2a" />
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="20.0" right="30.0" />
+                     </padding>
+                  </HBox>
+                  <Label alignment="BOTTOM_LEFT" prefHeight="38.0" prefWidth="226.0" text="Ateliês abertos para visitação, frete veloz ou retirada imediata" wrapText="true">
+                     <VBox.margin>
+                        <Insets left="20.0" right="30.0" />
+                     </VBox.margin>
+                  </Label>
+                  <VBox fx:id="boxPerfisDestaque" prefHeight="200.0" prefWidth="100.0" spacing="20.0">
+                     <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="140.0" prefWidth="200.0" spacing="20.0" styleClass="card-perfil">
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                           </VBox.margin>
+                           <children>
+                              <ImageView fx:id="fotoPerfil1" fitHeight="125.0" fitWidth="125.0" pickOnBounds="true" preserveRatio="true" />
+                              <VBox prefHeight="200.0" prefWidth="100.0" spacing="10.0" HBox.hgrow="ALWAYS">
+                                 <children>
+                                    <HBox prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                                       <children>
+                                          <Label fx:id="nomePerfil1" />
+                                          <Region maxWidth="1.7976931348623157E308" minWidth="0.0" prefHeight="200.0" prefWidth="0.0" HBox.hgrow="ALWAYS" />
+                                          <Label fx:id="distanciaPerfil1" />
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
                </children>
             </VBox>
          </content>
